@@ -30,6 +30,9 @@ Interactive program featuring:
 python student_details.py
 ```
 
+**Screenshot:**
+![Student Details Program](SS/3.png)
+
 ### 4. Simple Chatbot (🤖 `simple_chatbot.py`)
 Rule-based chatbot with:
 - Greeting and conversation responses
@@ -43,6 +46,9 @@ Rule-based chatbot with:
 python simple_chatbot.py
 ```
 
+**Screenshot:**
+![Simple Chatbot](SS/2.png)
+
 ### 5. Math Operations Calculator (🧮 `math_operations.py`)
 Comprehensive calculator with functions for:
 - Basic operations: +, -, ×, ÷
@@ -55,6 +61,9 @@ Comprehensive calculator with functions for:
 ```bash
 python math_operations.py
 ```
+
+**Screenshot:**
+![Math Operations Calculator](SS/1.png)
 
 ## Quick Setup
 
