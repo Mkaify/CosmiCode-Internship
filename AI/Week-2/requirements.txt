@@ -1,0 +1,24 @@
+# Week 2: Search Algorithms in AI - Requirements
+# Python packages required for search algorithm implementations
+
+# Core Python packages (usually included with Python)
+# collections - for deque, defaultdict
+# copy - for deepcopy operations
+# time - for performance measurements
+# random - for generating test data
+
+# Additional packages for enhanced functionality (optional)
+matplotlib>=3.5.0     # For visualizing search trees and paths
+numpy>=1.21.0         # For numerical operations and array handling
+networkx>=2.8.0       # For advanced graph operations and visualization
+
+# Development and testing packages (optional)
+pytest>=7.0.0         # For unit testing
+pytest-cov>=4.0.0     # For test coverage reports
+
+# Documentation packages (optional)
+sphinx>=5.0.0         # For generating documentation
+sphinx-rtd-theme>=1.0.0  # For Read the Docs theme
+
+# Note: Most implementations only require Python standard library
+# Additional packages are for enhanced features and visualization 
