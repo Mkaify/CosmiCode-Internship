@@ -1,7 +1,7 @@
 # Search Algorithms Report: A* and Greedy Best-First Search
 
-**Author:** AI Learning Project  
-**Date:** 2024  
+**Author:** Mkaify 
+**Date:** 2025 
 **Week:** 2 - Search Algorithms in AI  
 
 ## Table of Contents
