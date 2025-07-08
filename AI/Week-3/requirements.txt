@@ -1,0 +1,16 @@
+# Week 3: Problem Solving & AI Concepts - Requirements
+# 
+# Basic requirements for running the Week 3 programs
+# Most programs use only standard library modules
+
+# Optional: For enhanced visualization (if needed in future)
+# matplotlib>=3.5.0
+# numpy>=1.21.0
+
+# Optional: For performance timing and analysis
+# time (built-in)
+# random (built-in)
+# collections (built-in)
+
+# No external dependencies required for current implementations
+# All programs use Python standard library only 
