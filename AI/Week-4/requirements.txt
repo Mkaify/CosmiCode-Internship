@@ -1,0 +1,25 @@
+# Week 4: Machine Learning Basics - Requirements
+# 
+# Core machine learning libraries
+scikit-learn>=1.0.0
+numpy>=1.21.0
+pandas>=1.3.0
+
+# Data visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Optional: Advanced visualizations and notebooks
+# jupyter>=1.0.0
+# plotly>=5.0.0
+
+# Optional: Tree visualization (requires system installation)
+# graphviz>=0.20.0
+
+# Note: For graphviz to work properly, you may need to install it system-wide:
+# 
+# On Ubuntu/Debian: sudo apt-get install graphviz
+# On macOS: brew install graphviz  
+# On Windows: Download from https://graphviz.org/download/
+#
+# Then install Python package: pip install graphviz 
