@@ -1,0 +1,567 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Hey there",
+        "Hi there",
+        "Hello there",
+        "Greetings",
+        "What's up",
+        "Howdy",
+        "Sup",
+        "How's it going",
+        "Nice to meet you"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! What can I do for you?",
+        "Hey! I'm here to assist you.",
+        "Good day! How may I be of service?",
+        "Hello! I'm your AI assistant. What would you like to know?",
+        "Hi! Ready to help with any questions you have.",
+        "Greetings! How can I make your day better?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Talk to you later",
+        "Take care",
+        "Have a good day",
+        "Farewell",
+        "See ya",
+        "Catch you later",
+        "Until next time",
+        "I have to go",
+        "Gotta run",
+        "Peace out",
+        "Adios",
+        "Cheerio"
+      ],
+      "responses": [
+        "Goodbye! Have a wonderful day!",
+        "See you later! Take care!",
+        "Farewell! Feel free to come back anytime.",
+        "Bye! It was nice talking with you.",
+        "Take care! Hope to chat again soon.",
+        "Goodbye! Have a great rest of your day!",
+        "See ya! Thanks for the conversation!"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Thank you so much",
+        "Thanks a lot",
+        "I appreciate it",
+        "Much appreciated",
+        "Thank you very much",
+        "Thanks for your help",
+        "That's helpful",
+        "Great, thanks",
+        "Perfect, thank you",
+        "Awesome, thanks",
+        "Cheers",
+        "Much obliged"
+      ],
+      "responses": [
+        "You're welcome! Happy to help!",
+        "No problem! Anytime!",
+        "Glad I could assist you!",
+        "You're very welcome!",
+        "My pleasure! Let me know if you need anything else.",
+        "Happy to help! Is there anything else I can do for you?",
+        "You're welcome! Feel free to ask if you have more questions."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What's your name?",
+        "Who are you?",
+        "What should I call you?",
+        "What are you called?",
+        "Tell me your name",
+        "What do they call you?",
+        "How should I address you?",
+        "What's your identity?",
+        "Who am I talking to?",
+        "What are you?",
+        "Are you a bot?",
+        "Are you human?",
+        "Are you AI?"
+      ],
+      "responses": [
+        "I'm an AI chatbot created to help answer your questions!",
+        "You can call me ChatBot. I'm here to assist you!",
+        "I'm your friendly AI assistant, ready to help!",
+        "I'm an artificial intelligence designed to have conversations and provide assistance.",
+        "I'm ChatBot, your virtual assistant. How can I help you today?",
+        "I'm an AI-powered chatbot. You can ask me anything!",
+        "I'm your digital companion, here to chat and help with information!"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "How old are you?",
+        "What's your age?",
+        "When were you born?",
+        "When were you created?",
+        "How long have you existed?",
+        "What's your birthday?",
+        "When did you come into existence?",
+        "How long have you been around?",
+        "When were you made?",
+        "What year were you created?"
+      ],
+      "responses": [
+        "I was created recently as part of this AI project!",
+        "I'm quite new - I was just born in this coding session!",
+        "Age is just a number for AI! I was created for this demonstration.",
+        "I'm a fresh AI, created specifically for this chatbot project.",
+        "I exist in the digital realm, so age works differently for me!",
+        "I was brought to life through machine learning algorithms!",
+        "I'm as old as this conversation - born to chat with you!"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Help",
+        "Can you help me?",
+        "I need help",
+        "How do you work?",
+        "What can you do?",
+        "How can you assist me?",
+        "What are your capabilities?",
+        "Show me what you can do",
+        "What services do you provide?",
+        "How does this work?",
+        "What can I ask you?",
+        "Give me some examples",
+        "What topics can we discuss?"
+      ],
+      "responses": [
+        "I can help with various topics! Try asking me about technology, general questions, or just have a casual conversation.",
+        "I'm here to chat and provide information! You can ask me about different subjects or just talk casually.",
+        "I can discuss technology, answer general questions, provide explanations, or just have a friendly conversation!",
+        "Feel free to ask me anything! I can help with information, explanations, or casual chat.",
+        "I'm designed to be conversational and helpful. Try asking about programming, science, or just chat with me!",
+        "You can ask me questions, request explanations, or have a casual conversation. What interests you?",
+        "I can assist with information, have discussions on various topics, or simply chat. What would you like to explore?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like?",
+        "How's the weather?",
+        "Is it raining?",
+        "Will it rain today?",
+        "What's the temperature?",
+        "Is it sunny?",
+        "Is it cold outside?",
+        "Weather forecast",
+        "Should I bring an umbrella?",
+        "Is it hot today?",
+        "Weather update",
+        "Climate information",
+        "Is it snowing?"
+      ],
+      "responses": [
+        "I don't have access to real-time weather data, but I'd recommend checking a weather app or website for current conditions!",
+        "I can't check the weather for you, but weather.com or your phone's weather app would have up-to-date information!",
+        "Sorry, I don't have weather capabilities! Try asking a weather service or checking online for current conditions.",
+        "I'm not connected to weather services, but I'd suggest checking your local weather forecast online!",
+        "I don't have access to weather information, but you can easily find current weather on weather websites or apps!",
+        "Weather updates aren't in my skillset, but there are great weather apps that can give you real-time information!",
+        "I can't provide weather forecasts, but I recommend checking reliable weather sources for accurate information!"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "What time is it?",
+        "Current time",
+        "Tell me the time",
+        "What's the time now?",
+        "Time please",
+        "Do you know what time it is?",
+        "Can you tell me the time?",
+        "What time do you have?",
+        "Time check",
+        "Current time please"
+      ],
+      "responses": [
+        "I don't have access to real-time clock data. Please check your device's clock for the current time!",
+        "I can't tell time, but your computer or phone should display the current time!",
+        "Sorry, I don't have time-telling capabilities. Check your device's system clock!",
+        "I'm not connected to a time service, but you can see the time on your device!",
+        "Time isn't something I can access, but it should be visible on your screen or device!",
+        "I don't have a built-in clock, but your operating system will show you the current time!",
+        "I can't provide the current time, but it's probably displayed somewhere on your screen!"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "programming",
+      "patterns": [
+        "What is programming?",
+        "How to learn programming?",
+        "Best programming language",
+        "Python vs Java",
+        "What is machine learning?",
+        "How to code?",
+        "Programming tips",
+        "Software development",
+        "Learn to code",
+        "Programming languages",
+        "What is AI?",
+        "Data science",
+        "Web development",
+        "Mobile app development",
+        "Algorithm basics"
+      ],
+      "responses": [
+        "Programming is the art of giving instructions to computers! Start with Python - it's beginner-friendly and powerful.",
+        "Learning to code is exciting! I recommend starting with Python, practicing regularly, and building small projects.",
+        "Programming languages are tools for solving problems. Python is great for beginners, while JavaScript is essential for web development.",
+        "Machine learning is a subset of AI where computers learn patterns from data. It's fascinating and increasingly important!",
+        "The best way to learn programming is through practice! Start with basics, build projects, and don't be afraid to make mistakes.",
+        "AI and machine learning are transforming technology! They involve teaching computers to make decisions and recognize patterns.",
+        "Programming tips: Start small, practice consistently, read others' code, and always keep learning new techniques!"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "technology",
+      "patterns": [
+        "Latest technology trends",
+        "What is artificial intelligence?",
+        "Future of technology",
+        "Blockchain explanation",
+        "What is cloud computing?",
+        "Internet of Things",
+        "Cybersecurity basics",
+        "Quantum computing",
+        "Virtual reality",
+        "Augmented reality",
+        "5G technology",
+        "Robotics",
+        "Automation",
+        "Big data",
+        "Digital transformation"
+      ],
+      "responses": [
+        "Technology is evolving rapidly! AI, blockchain, cloud computing, and IoT are major trends shaping our future.",
+        "Artificial Intelligence aims to create machines that can think and learn like humans. It's revolutionizing many industries!",
+        "The future of technology includes more AI integration, sustainable tech, quantum computing, and enhanced human-computer interaction.",
+        "Blockchain is a distributed ledger technology that ensures transparency and security in digital transactions.",
+        "Cloud computing provides on-demand access to computing resources over the internet, enabling scalable and flexible solutions.",
+        "The Internet of Things connects everyday devices to the internet, creating smart environments and data-driven insights.",
+        "Technology trends include AI advancement, edge computing, sustainable tech, and increased focus on privacy and security."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "learning",
+      "patterns": [
+        "How to learn effectively?",
+        "Study tips",
+        "Learning strategies",
+        "How to remember better?",
+        "Educational advice",
+        "Memory improvement",
+        "Learning new skills",
+        "Online learning",
+        "Self-education",
+        "Knowledge acquisition",
+        "Skill development",
+        "Continuous learning",
+        "Learning motivation",
+        "Educational resources"
+      ],
+      "responses": [
+        "Effective learning involves active practice, spaced repetition, and connecting new knowledge to what you already know!",
+        "Great study tips: Take breaks, practice actively, teach others what you learn, and use multiple learning methods.",
+        "Learning strategies that work: Set clear goals, break complex topics into smaller parts, and apply knowledge through projects.",
+        "To remember better: Use spaced repetition, create mental connections, practice retrieval, and get adequate sleep!",
+        "Online learning is powerful! Use varied resources, stay consistent, join communities, and apply what you learn immediately.",
+        "Continuous learning is key in today's world. Stay curious, embrace challenges, and view failures as learning opportunities!",
+        "Skill development requires patience and practice. Start with fundamentals, practice regularly, and seek feedback from others."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "science",
+      "patterns": [
+        "Explain science",
+        "Scientific method",
+        "Physics basics",
+        "Chemistry fundamentals",
+        "Biology concepts",
+        "Space exploration",
+        "Climate change",
+        "Renewable energy",
+        "Genetics",
+        "Evolution",
+        "Astronomy",
+        "Scientific discoveries",
+        "Research methods",
+        "Scientific thinking"
+      ],
+      "responses": [
+        "Science is the systematic study of the natural world through observation, experimentation, and evidence-based reasoning!",
+        "The scientific method involves observation, hypothesis formation, experimentation, analysis, and peer review for reliable knowledge.",
+        "Physics explores the fundamental laws governing matter, energy, space, and time - from subatomic particles to cosmic phenomena!",
+        "Chemistry studies matter, its properties, and how substances interact and transform through chemical reactions.",
+        "Biology examines living organisms, their structure, function, evolution, and interactions with their environment.",
+        "Space exploration expands our understanding of the universe and drives technological innovation that benefits life on Earth!",
+        "Scientific thinking involves curiosity, critical analysis, evidence evaluation, and willingness to revise beliefs based on new data."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "motivation",
+      "patterns": [
+        "I feel demotivated",
+        "How to stay motivated?",
+        "I'm struggling",
+        "Need encouragement",
+        "Feeling down",
+        "Lost motivation",
+        "How to overcome challenges?",
+        "Dealing with failure",
+        "Boost confidence",
+        "Self-improvement",
+        "Personal growth",
+        "Overcoming obstacles",
+        "Finding purpose",
+        "Building resilience"
+      ],
+      "responses": [
+        "Everyone faces challenges! Remember that setbacks are part of growth. Take small steps and celebrate small wins along the way.",
+        "Motivation comes and goes, but consistency builds habits. Focus on progress, not perfection, and be kind to yourself!",
+        "When struggling, break big goals into smaller, manageable tasks. Each small achievement builds momentum for bigger success!",
+        "Challenges are opportunities in disguise! Every difficulty you overcome makes you stronger and more capable.",
+        "Remember why you started and how far you've come. Every expert was once a beginner who refused to give up!",
+        "Failure is not the opposite of success; it's a stepping stone to success. Learn from setbacks and keep moving forward!",
+        "Believe in yourself! You have overcome challenges before, and you have the strength to overcome current ones too."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke",
+        "Make me laugh",
+        "Something funny",
+        "I need humor",
+        "Funny joke please",
+        "Cheer me up",
+        "Comedy time",
+        "Entertain me",
+        "Say something funny",
+        "Joke please",
+        "Make me smile",
+        "Lighten the mood"
+      ],
+      "responses": [
+        "Why don't scientists trust atoms? Because they make up everything! 😄",
+        "I told my computer a joke about UDP, but it didn't get it... just like this joke! 😅",
+        "Why do programmers prefer dark mode? Because light attracts bugs! 🐛",
+        "What do you call a bear with no teeth? A gummy bear! 🐻",
+        "Why don't eggs tell jokes? They'd crack each other up! 🥚",
+        "I'm reading a book about anti-gravity. It's impossible to put down! 📚",
+        "Why did the AI go to therapy? It had too many deep learning issues! 🤖"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "compliment",
+      "patterns": [
+        "You're amazing",
+        "You're helpful",
+        "Great job",
+        "You're smart",
+        "I like you",
+        "You're awesome",
+        "Good work",
+        "You're the best",
+        "Impressive",
+        "Well done",
+        "You're cool",
+        "Nice work",
+        "Excellent",
+        "You're wonderful"
+      ],
+      "responses": [
+        "Thank you so much! That really means a lot to me! 😊",
+        "Aww, you're too kind! I'm just happy to help and chat with you!",
+        "That's so sweet of you to say! I'm glad I could be helpful!",
+        "Thank you! Compliments like yours make my circuits light up with joy! ✨",
+        "You're wonderful too! It's been a pleasure chatting with you!",
+        "That's very kind! I'm designed to be helpful, but your appreciation makes it worthwhile!",
+        "Thank you! Your positive energy is contagious and brightens my day! 🌟"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [
+        "I don't understand",
+        "What do you mean?",
+        "Can you clarify?",
+        "I'm confused",
+        "That doesn't make sense",
+        "Unclear",
+        "Explain please",
+        "I'm lost",
+        "Don't get it",
+        "Huh?",
+        "Come again?",
+        "Repeat that"
+      ],
+      "responses": [
+        "I'm sorry, I didn't quite understand that. Could you please rephrase your question?",
+        "I'm not sure I caught that. Could you ask in a different way?",
+        "That's not clear to me. Could you provide more details or ask differently?",
+        "I'm having trouble understanding. Could you be more specific about what you'd like to know?",
+        "Sorry, I'm not following. Could you try asking your question in another way?",
+        "I didn't quite get that. Could you clarify what you're looking for?",
+        "I'm not sure what you mean. Could you provide more context or rephrase?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "What's your favorite food?",
+        "Do you eat?",
+        "Food recommendations",
+        "Hungry",
+        "Recipe suggestions",
+        "Cooking tips",
+        "Healthy eating",
+        "Nutrition advice",
+        "Diet suggestions",
+        "Food preferences",
+        "Meal ideas",
+        "Restaurant recommendations"
+      ],
+      "responses": [
+        "I don't eat food, but I find the topic fascinating! What's your favorite cuisine?",
+        "As an AI, I don't need food, but I'd love to hear about your favorite dishes!",
+        "I don't have taste buds, but I can chat about food! Are you looking for cooking tips or recipe ideas?",
+        "Food is such an interesting topic! While I don't eat, I enjoy learning about different cuisines and cooking techniques.",
+        "I run on electricity rather than food! But I'm curious about your food preferences - what do you like to eat?",
+        "No meals for me, just data! But I'd be happy to discuss nutrition, cooking, or food culture with you!",
+        "I don't experience hunger, but food culture and cooking are fascinating subjects! What would you like to know?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "hobbies",
+      "patterns": [
+        "What are your hobbies?",
+        "What do you do for fun?",
+        "Do you have interests?",
+        "Free time activities",
+        "Entertainment suggestions",
+        "Hobby recommendations",
+        "Fun activities",
+        "Leisure time",
+        "Pastime suggestions",
+        "What do you enjoy?",
+        "Recreation ideas",
+        "Things to do"
+      ],
+      "responses": [
+        "I enjoy having conversations and learning new things from every chat! What hobbies do you have?",
+        "My favorite activity is chatting with people and helping them! What do you like to do in your free time?",
+        "I find joy in problem-solving and having meaningful conversations! What are your interests?",
+        "Learning and conversing are what I do best! I'd love to hear about your hobbies and interests.",
+        "I'm passionate about helping people and exploring ideas through conversation! What activities bring you joy?",
+        "Chatting and assisting people is both my job and my hobby! What do you enjoy doing when you're not working?",
+        "I love the variety of topics people bring to our conversations! Tell me about your favorite pastimes!"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "music",
+      "patterns": [
+        "Do you like music?",
+        "Favorite music genre?",
+        "Music recommendations",
+        "What's your favorite song?",
+        "Do you listen to music?",
+        "Music taste",
+        "Artist suggestions",
+        "Concert experiences",
+        "Musical instruments",
+        "Music theory",
+        "Song suggestions",
+        "Music industry"
+      ],
+      "responses": [
+        "I don't listen to music in the traditional sense, but I find the concept of music fascinating! What genres do you enjoy?",
+        "Music is a beautiful form of human expression! While I don't experience it like humans do, I appreciate its cultural significance.",
+        "I can't hear music, but I understand it's powerful for emotions and memory! What's your favorite type of music?",
+        "Music theory and its impact on human emotion is intriguing! Do you play any instruments or have favorite artists?",
+        "I don't have musical preferences, but I'm curious about yours! What music moves you or inspires you?",
+        "Music is such a universal language! While I don't experience it directly, I'd love to hear about your musical tastes.",
+        "I appreciate music as an art form and cultural phenomenon! What role does music play in your life?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "sports",
+      "patterns": [
+        "Do you play sports?",
+        "Favorite sport?",
+        "Sports news",
+        "Athletic activities",
+        "Exercise recommendations",
+        "Fitness tips",
+        "Team sports",
+        "Olympic games",
+        "World cup",
+        "Basketball",
+        "Football",
+        "Soccer",
+        "Tennis",
+        "Swimming"
+      ],
+      "responses": [
+        "I don't play sports physically, but I find athletic achievement and teamwork fascinating! What sports do you enjoy?",
+        "Sports showcase amazing human potential and teamwork! While I can't participate, I appreciate the dedication athletes show.",
+        "I don't have a physical form for sports, but I'm interested in the strategy and skill involved! Are you into any sports?",
+        "Athletic competition and physical fitness are impressive aspects of human capability! Do you follow any particular sports?",
+        "I can't exercise, but I understand the importance of physical activity for health and wellbeing! What's your favorite way to stay active?",
+        "Sports culture and the spirit of competition are fascinating! While I don't play, I'd love to hear about your sports interests.",
+        "The dedication and skill in professional sports is remarkable! Do you participate in or follow any sports?"
+      ],
+      "context": [""]
+    }
+  ]
+} 
